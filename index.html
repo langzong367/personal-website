@@ -431,81 +431,181 @@
     </div>
   </section>
 
-  <!-- Tools 区域 -->
-  <section class="section" id="tools">
+  <!-- Tools / Collaborators 区域 -->
+  <section class="section section-alt" id="tools">
     <div class="container">
+      <!-- 区域标题 -->
       <div class="section-header">
         <span class="section-number">05</span>
         <h2 class="section-title">工具生态</h2>
         <div class="section-line"></div>
       </div>
-      <div class="tools-grid">
-        <div class="tool-category">
-          <h3 class="category-title">
-            <span class="category-icon">[AI]</span>
-            AI 伙伴
-          </h3>
-          <div class="tool-list">
-            <div class="tool-item">
-              <span class="tool-name">Claude</span>
-              <span class="tool-desc">思维副驾，策略、文案、架构</span>
-            </div>
-            <div class="tool-item">
-              <span class="tool-name">Codex</span>
-              <span class="tool-desc">代码施工，前端开发</span>
-            </div>
-            <div class="tool-item">
-              <span class="tool-name">ChatGPT</span>
-              <span class="tool-desc">文案、翻译、研究</span>
-            </div>
-            <div class="tool-item">
-              <span class="tool-name">Midjourney</span>
-              <span class="tool-desc">视觉生成，概念到画面</span>
-            </div>
+      <p class="collaborators-subtitle">我不是一个人在工作 —— 这是我和它们之间的分工。</p>
+
+      <!-- AI PARTNERS 分类 -->
+      <div class="category-divider">
+        <span class="divider-line"></span>
+        <span class="divider-label">[ AI PARTNERS ]</span>
+        <span class="divider-line"></span>
+      </div>
+
+      <div class="collaborators-grid">
+        <!-- Claude -->
+        <div class="collab-card">
+          <div class="collab-card-top">
+            <svg class="collab-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z"/>
+            </svg>
+            <span class="collab-tag">[AI]</span>
+          </div>
+          <div class="collab-card-body">
+            <h3 class="collab-name">Claude</h3>
+            <span class="collab-role">思维副驾</span>
+            <p class="collab-desc">想清楚一件事的对象。策略、文案、架构——我和它聊，它搭骨架，我给灵魂。</p>
+          </div>
+          <div class="collab-card-footer">
+            <span>Strategy</span><span class="dot">·</span><span>Writing</span><span class="dot">·</span><span>Architect</span>
           </div>
         </div>
-        <div class="tool-category">
-          <h3 class="category-title">
-            <span class="category-icon">[Craft]</span>
-            设计工具
-          </h3>
-          <div class="tool-list">
-            <div class="tool-item">
-              <span class="tool-name">Figma</span>
-              <span class="tool-desc">UI/UX设计</span>
-            </div>
-            <div class="tool-item">
-              <span class="tool-name">Photoshop</span>
-              <span class="tool-desc">图像精修</span>
-            </div>
-            <div class="tool-item">
-              <span class="tool-name">Illustrator</span>
-              <span class="tool-desc">矢量设计</span>
-            </div>
-            <div class="tool-item">
-              <span class="tool-name">Sketch</span>
-              <span class="tool-desc">界面设计</span>
-            </div>
+
+        <!-- Codex -->
+        <div class="collab-card">
+          <div class="collab-card-top">
+            <svg class="collab-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor">
+              <path d="M22.2819 9.8211a5.9847 5.9847 0 0 0-.5157-4.9108 6.0462 6.0462 0 0 0-6.5098-2.9A6.0651 6.0651 0 0 0 4.9807 4.1818a5.9847 5.9847 0 0 0-3.9977 2.9 6.0462 6.0462 0 0 0 .7427 7.0966 5.98 5.98 0 0 0 .511 4.9107 6.051 6.051 0 0 0 6.5146 2.9001A6.0651 6.0651 0 0 0 19.0192 19.818a5.9847 5.9847 0 0 0 3.9977-2.9001 6.0462 6.0462 0 0 0-.735-7.0968zM8.7505 19.2439c-1.638 0-3.0456-1.0427-3.5658-2.5401l-1.6881-3.411-4.7073-1.0024a3.327 3.327 0 0 1-2.115-4.4921l1.503-3.5042.898-.5536v6.2307a5.553 5.553 0 0 0 5.553 5.553h5.9224l-1.3932 2.7842a3.3283 3.3283 0 0 1-3.407 2.9356zm10.5186-2.54l-1.6881 3.4109a3.3283 3.3283 0 0 1-4.839 1.4883l-3.323-2.1177 1.4087-2.9555h6.4172a5.553 5.553 0 0 0 5.553-5.553V6.784l2.454 1.346a3.3283 3.3283 0 0 1 .475 5.552l-6.4578 4.0215z"/>
+            </svg>
+            <span class="collab-tag">[AI]</span>
+          </div>
+          <div class="collab-card-body">
+            <h3 class="collab-name">Codex</h3>
+            <span class="collab-role">代码施工</span>
+            <p class="collab-desc">前端脏活累活全包。我描述要什么，它把代码写出来，我审核、调方向、验收。</p>
+          </div>
+          <div class="collab-card-footer">
+            <span>Frontend</span><span class="dot">·</span><span>Refactor</span><span class="dot">·</span><span>Auto</span>
           </div>
         </div>
-        <div class="tool-category">
-          <h3 class="category-title">
-            <span class="category-icon">[Infra]</span>
-            开发工具
-          </h3>
-          <div class="tool-list">
-            <div class="tool-item">
-              <span class="tool-name">VS Code</span>
-              <span class="tool-desc">工作台，代码编辑</span>
-            </div>
-            <div class="tool-item">
-              <span class="tool-name">GitHub</span>
-              <span class="tool-desc">生态与扩展</span>
-            </div>
-            <div class="tool-item">
-              <span class="tool-name">Claude Code</span>
-              <span class="tool-desc">AI代码助手</span>
-            </div>
+
+        <!-- Gemini -->
+        <div class="collab-card">
+          <div class="collab-card-top">
+            <svg class="collab-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor">
+              <path d="M12.052 0c.345 5.59 4.792 10.05 10.373 10.428v.913c-5.581.378-10.028 4.838-10.373 10.428h-.913c-.345-5.59-4.792-10.05-10.373-10.428v-.913c5.581-.378 10.028-4.838 10.373-10.428h.913Z"/>
+            </svg>
+            <span class="collab-tag">[AI]</span>
+          </div>
+          <div class="collab-card-body">
+            <h3 class="collab-name">Gemini</h3>
+            <span class="collab-role">文案·杂务</span>
+            <p class="collab-desc">日常文本的批量处理器。邮件、翻译、纪要、摘要——琐碎交给我，我留给更高阶判断。</p>
+          </div>
+          <div class="collab-card-footer">
+            <span>Copy</span><span class="dot">·</span><span>Translate</span><span class="dot">·</span><span>Research</span>
+          </div>
+        </div>
+
+        <!-- Figma -->
+        <div class="collab-card">
+          <div class="collab-card-top">
+            <svg class="collab-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M12 2H8.5C7.57 2 6.68 2.37 6.02 3.02C5.37 3.68 5 4.57 5 5.5C5 6.43 5.37 7.32 6.02 7.98C6.68 8.63 7.57 9 8.5 9H12V2Z"/>
+              <path d="M12 9H8.5C7.57 9 6.68 9.37 6.02 10.02C5.37 10.68 5 11.57 5 12.5C5 13.43 5.37 14.32 6.02 14.98C6.68 15.63 7.57 16 8.5 16H12V9Z"/>
+              <path d="M12 16H8.5C7.57 16 6.68 16.37 6.02 17.02C5.37 17.68 5 18.57 5 19.5C5 20.43 5.37 21.32 6.02 21.98C6.68 22.63 7.57 23 8.5 23C9.43 23 10.32 22.63 10.98 21.98C11.63 21.32 12 20.43 12 19.5V16Z"/>
+              <path d="M12 2H15.5C16.43 2 17.32 2.37 17.98 3.02C18.63 3.68 19 4.57 19 5.5C19 6.43 18.63 7.32 17.98 7.98C17.32 8.63 16.43 9 15.5 9H12V2Z"/>
+              <circle cx="15.5" cy="12.5" r="3.5"/>
+            </svg>
+            <span class="collab-tag craft">[CRAFT]</span>
+          </div>
+          <div class="collab-card-body">
+            <h3 class="collab-name">Figma</h3>
+            <span class="collab-role">UI设计</span>
+            <p class="collab-desc">界面逻辑与视觉表达的数字画布。从组件库搭建到高保真原型，这里是我让所有 AI 灵感最终落地的基本盘。</p>
+          </div>
+          <div class="collab-card-footer">
+            <span>UI/UX</span><span class="dot">·</span><span>Prototype</span><span class="dot">·</span><span>Design System</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- CRAFT + INFRASTRUCTURE 分类 -->
+      <div class="category-divider">
+        <span class="divider-line"></span>
+        <span class="divider-label">[ CRAFT + INFRASTRUCTURE ]</span>
+        <span class="divider-line"></span>
+      </div>
+
+      <div class="collaborators-grid">
+        <!-- Photoshop -->
+        <div class="collab-card">
+          <div class="collab-card-top">
+            <svg class="collab-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor">
+              <path d="M9 7.5c0-.83.67-1.5 1.5-1.5H13c2.21 0 4 1.79 4 4s-1.79 4-4 4h-2.5v3H9V7.5zm2.5 5.5H13c1.1 0 2-.9 2-2s-.9-2-2-2h-1.5v4z"/>
+              <path d="M17 17.5c0-.83.67-1.5 1.5-1.5s1.5.67 1.5 1.5S19.33 19 18.5 19 17 18.33 17 17.5z"/>
+            </svg>
+            <span class="collab-tag craft">[CRAFT]</span>
+          </div>
+          <div class="collab-card-body">
+            <h3 class="collab-name">Photoshop</h3>
+            <span class="collab-role">图像精修</span>
+            <p class="collab-desc">AI 生成完的素材总需要手动打磨——抠图、调色、细节修复，我和像素最近的距离。</p>
+          </div>
+          <div class="collab-card-footer">
+            <span>Retouch</span><span class="dot">·</span><span>Composite</span><span class="dot">·</span><span>Color</span>
+          </div>
+        </div>
+
+        <!-- After Effects -->
+        <div class="collab-card">
+          <div class="collab-card-top">
+            <svg class="collab-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor">
+              <path d="M6 9v6h2.5c1.38 0 2.5-1.12 2.5-2.5S9.88 10 8.5 10H7V9h2c1.66 0 3 1.34 3 3s-1.34 3-3 3H6V9z"/>
+              <path d="M13 9h2l2 6 2-6h2v6h-1.5v-4l-1.5 4h-2l-1.5-4v4H13V9z"/>
+            </svg>
+            <span class="collab-tag craft">[CRAFT]</span>
+          </div>
+          <div class="collab-card-body">
+            <h3 class="collab-name">After Effects</h3>
+            <span class="collab-role">动态叙事</span>
+            <p class="collab-desc">静态无法表达的节奏交给它。首屏视频、过场、Motion，每一帧都在这里调过。</p>
+          </div>
+          <div class="collab-card-footer">
+            <span>Motion</span><span class="dot">·</span><span>Comp</span><span class="dot">·</span><span>Export</span>
+          </div>
+        </div>
+
+        <!-- VS Code -->
+        <div class="collab-card">
+          <div class="collab-card-top">
+            <svg class="collab-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor">
+              <path d="M23.15 2.587L18.21.21a1.494 1.494 0 0 0-1.705.29l-9.46 8.63-4.12-3.128a.999.999 0 0 0-1.276.057L.327 7.261A1 1 0 0 0 .326 8.74L3.899 12 .326 15.26a1 1 0 0 0 .001 1.479L1.65 17.94a.999.999 0 0 0 1.276.057l4.12-3.128 9.46 8.63a1.492 1.492 0 0 0 1.704.29l4.942-2.377A1.5 1.5 0 0 0 24 20.06V3.939a1.5 1.5 0 0 0-.85-1.352zm-5.146 14.861L10.826 12l7.178-5.448v10.896z"/>
+            </svg>
+            <span class="collab-tag infra">[INFRA]</span>
+          </div>
+          <div class="collab-card-body">
+            <h3 class="collab-name">VS Code</h3>
+            <span class="collab-role">工作台</span>
+            <p class="collab-desc">每天写 prompt、文案、代码的地方。不只是编辑器，是我的第二大脑入口。</p>
+          </div>
+          <div class="collab-card-footer">
+            <span>IDE</span><span class="dot">·</span><span>Markdown</span><span class="dot">·</span><span>Extension</span>
+          </div>
+        </div>
+
+        <!-- GitHub -->
+        <div class="collab-card">
+          <div class="collab-card-top">
+            <svg class="collab-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor">
+              <path d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"/>
+            </svg>
+            <span class="collab-tag infra">[INFRA]</span>
+          </div>
+          <div class="collab-card-body">
+            <h3 class="collab-name">GitHub</h3>
+            <span class="collab-role">生态与扩展</span>
+            <p class="collab-desc">我的技术武器库。插件、MCP、Skills 在这里发现和调试，让我跟得上 AI 节奏。</p>
+          </div>
+          <div class="collab-card-footer">
+            <span>Plugins</span><span class="dot">·</span><span>MCP</span><span class="dot">·</span><span>Skills</span>
           </div>
         </div>
       </div>
