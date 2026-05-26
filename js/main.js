@@ -108,7 +108,7 @@ function highlightNav() {
 window.addEventListener('scroll', highlightNav);
 
 // ========== 滚动显示动画 ==========
-const revealElements = document.querySelectorAll('.role-card, .skill-card, .timeline-item, .project-card, .tool-category, .contact-item');
+const revealElements = document.querySelectorAll('.role-card, .timeline-item, .project-card, .tool-category, .contact-item');
 
 const revealObserver = new IntersectionObserver((entries) => {
   entries.forEach(entry => {
@@ -128,7 +128,7 @@ revealElements.forEach(el => {
 });
 
 // 为元素添加交错动画延迟
-const staggerElements = document.querySelectorAll('.role-card, .skill-card, .timeline-item, .project-card, .tool-category');
+const staggerElements = document.querySelectorAll('.role-card, .timeline-item, .project-card, .tool-category');
 staggerElements.forEach((el, index) => {
   const parent = el.parentElement;
   const siblings = Array.from(parent.children);
@@ -319,7 +319,7 @@ if (window.innerWidth > 768) {
   animateCursor();
 
   // 悬停效果
-  const hoverElements = document.querySelectorAll('a, button, .project-card, .role-card, .skill-card, .tool-item');
+  const hoverElements = document.querySelectorAll('a, button, .project-card, .role-card, .tool-item');
   hoverElements.forEach(el => {
     el.addEventListener('mouseenter', () => {
       cursor.classList.add('hover');
@@ -370,7 +370,7 @@ window.addEventListener('scroll', () => {
 
 // ========== 卡片倾斜效果 ==========
 if (window.innerWidth > 768) {
-  const cards = document.querySelectorAll('.role-card, .skill-card, .project-card, .tool-category');
+  const cards = document.querySelectorAll('.role-card, .project-card, .tool-category');
 
   cards.forEach(card => {
     card.addEventListener('mousemove', (e) => {
